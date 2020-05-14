@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bazsa Ákos könyvesboltja</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="loginpage">
+
+<br>
+<div class="container main-container bg-gradient-primary shadow rounded pt-0 pb-0 px-5">
+
+  <div class="jumbotron">
+
+
+    <h1>Üdvözöljük Néző Gábor könyvesboltjában</h1>
+
+     <p>
+       Van Account-ja?  Ha van, akkor jelentkezzen be! 
+       Még nincs felhasználója? Akkor regisztráljon egyet, és már böngészheti is a könyveket.
+     </p>
+   </div>
+   <hr>
+
+   <div class="row">
+     <div class="col-sm-6">
+       <h2>Belépés</h2>
+       <form action="/login" method="post">
+         <div class="form-group">
+           <label for="name">Név</label>
+           <input type="text" class="form-control" id="name" placeholder="Ide írja be a belépésinevét" name="name" required>
+         </div>
+         <div class="form-group">
+           <label for="pwd">Jelszó</label>
+           <input type="password" class="form-control" id="pwd" placeholder="Ide írja be a jelszót" name="pswd" required>
+         </div>
+         <button type="submit" class="btn btn-success float-right">Belépés a könyvtárba</button>
+       </form>
+     </div>
+
+
+     <div class="col-sm-6">
+       <h2>Regisztráció</h2>
+
+       <form action="/register" method="post">
+         <div class="form-group">
+           <label for="name">Név</label>
+           <input type="text" class="form-control" id="rname" placeholder="Felhasználó Név" name="name" required>
+         </div>
+         <div class="form-group">
+           <label for="pwd">Jelszó</label>
+           <input type="password" class="form-control" id="rpwd" placeholder="Felhasználói Jelszó" name="pswd" required>
+         </div>
+         <div class="form-group">
+           <label for="email">Email</label>
+           <input type="text" class="form-control" id="rname" placeholder="Email" name="email" required>
+         </div>
+         <div class="form-group">
+           <label for="age">Születési dátum</label>
+           <input type="date" class="form-control" id="birth" placeholder="Születési dátum" name="birth" required>
+         </div>
+         <div class="form-group">
+           <label for="address">Lakcím</label>
+           <input type="text" class="form-control" id="address" placeholder="Lakcíme" name="address" required>
+         </div>
+         <button type="submit" class="btn btn-primary float-left">Regisztráció</button>
+       </form>
+     </div>
+   </div>
+
+
+
+  <hr>
+  
+  <div class="jumbotron">
+    <div class="d-flex bd-highlight">
+       <div class="flex-fill bd-highlight align-middle text-center  ">Copyright &copy; 2019</div>
+       <div class="flex-fill bd-highlight align-middle text-center border-right border-left border-dark">
+         
+         <br>
+         <br>
+       </div>
+       <div class="flex-fill bd-highlight align-middle text-center">
+         Elérhetőség: n.gabor8@gmail.hu
+       </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+</body>
+</html>
