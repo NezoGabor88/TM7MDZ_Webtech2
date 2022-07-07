@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "express-parser": "^1.0.0",
     "express-session": "^1.17.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongodb": "^3.5.6",
     "uuid": "^7.0.3"
   }
